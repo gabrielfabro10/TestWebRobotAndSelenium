@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-02-27T15:55:32.951072" rpa="false" schemaversion="5">
+<suite id="s1" name="variavelDicionario" source="C:\Robot-tests\VariaveisEscoposArgumentos\variavelDicionario.robot">
+<test id="s1-t1" name="Deve imprimir todos os meses do ano" line="8">
+<kw name="Imprime todos os meses do ano">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Janeiro: ${MESES_DO_ANO.janeiro}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-27T15:55:32.972936" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Fevereiro: ${MESES_DO_ANO.fevereiro}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-27T15:55:32.973941" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Março: ${MESES_DO_ANO.março}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-27T15:55:32.973941" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Abril: ${MESES_DO_ANO.abril}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-27T15:55:32.975349" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Maio: ${MESES_DO_ANO.maio}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-27T15:55:32.975349" elapsed="0.001006"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Junho: ${MESES_DO_ANO.junho}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-27T15:55:32.976355" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Julho: ${MESES_DO_ANO.julho}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-27T15:55:32.976355" elapsed="0.001002"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Agosto: ${MESES_DO_ANO.agosto}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-27T15:55:32.977357" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Setembro: ${MESES_DO_ANO.setembro}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-27T15:55:32.977357" elapsed="0.001000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Outubro: ${MESES_DO_ANO.outubro}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-27T15:55:32.978357" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Novembro: ${MESES_DO_ANO.novembro}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-27T15:55:32.979365" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Dezembro: ${MESES_DO_ANO.dezembro}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-27T15:55:32.979365" elapsed="0.000993"/>
+</kw>
+<status status="PASS" start="2024-02-27T15:55:32.972936" elapsed="0.007422"/>
+</kw>
+<status status="PASS" start="2024-02-27T15:55:32.971501" elapsed="0.008857"/>
+</test>
+<doc>Exemplo de tipo de variável: LISTA</doc>
+<status status="PASS" start="2024-02-27T15:55:32.952083" elapsed="0.029288"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="variavelDicionario">variavelDicionario</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-02-27T15:55:32.945344" level="WARN">Error in file 'C:\Robot-tests\VariaveisEscoposArgumentos\variavelDicionario.robot' on line 4: Singular section headers like '*** Variable ***' are deprecated. Use plural format like '*** Variables ***' instead.</msg>
+</errors>
+</robot>
